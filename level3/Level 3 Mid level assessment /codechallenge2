@@ -1,0 +1,34 @@
+// Challenge 2: Count Vowels
+// Write a JavaScript function called countVowels that takes a string as input and counts the number of vowels (a, e, i, o, u) in the string. The function should return the count.
+// Implement the countVowels function using either the provided example solutions or your own solution.
+
+
+// const input = 'Hello, World!';
+
+// console.log(countVowels(input)); // Output: 3
+// const input = 'Counting Vowels';
+
+// console.log(countVowels(input)); // Output: 5
+
+// program to count the number of vowels in a string
+
+// const str = "GeeksforGeeks";
+// for (let i = 0; i < str.length; i++) {
+//     console.log(str[i]);
+// };
+
+function countVowel(str) { 
+
+    // find the count of vowels
+    const count = str.match(/[aeiou]/gi).length;
+
+    // return number of vowels
+    return count;
+}
+
+// take input
+const string = "Hello World"
+
+const result = countVowel(string);
+
+console.log(result);
