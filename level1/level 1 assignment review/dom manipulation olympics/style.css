@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    color:black   
+}
+
+.name {
+    color: rgb(28, 31, 221);
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 10px 0px;
+    padding: 20px;
+}
+
+#main {
+    margin: 30px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.message {
+    padding: 5px;
+}
+
+.right {
+    align-self: flex-end;
+    background-color: lightblue;
+}
+
+.left {
+    align-self: flex-start;
+    background-color: burlywood;
+
+    
+}
+
+.theme-one {
+    background-color: rgb(146, 146, 189);
+  }
+  .theme-two {
+    background-color: red;
+  }
