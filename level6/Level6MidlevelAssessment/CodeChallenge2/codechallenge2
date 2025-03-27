@@ -1,0 +1,15 @@
+function filterByProperty(objects, propertyName, propertyValue) {
+  // Use the filter method to create a new array with matching objects
+  return objects.filter(object => object[propertyName] === propertyValue);
+}
+
+const people = [
+  { name: 'Alice', age: 30, country: 'USA' },
+  { name: 'Bob', age: 25, country: 'Canada' },
+  { name: 'Charlie', age: 35, country: 'USA' },
+  { name: 'David', age: 28, country: 'Australia' },
+];
+
+const filteredByCountry = filterByProperty(people, 'country', 'Canada');
+console.log(filteredByCountry);
+// Output: [{ name: 'Alice', age: 30, country: 'USA' }, { name: 'Charlie', age: 35, country: 'USA' }]

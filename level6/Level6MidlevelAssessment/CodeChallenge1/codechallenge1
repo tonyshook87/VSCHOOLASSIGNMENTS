@@ -1,0 +1,15 @@
+function extractInitials(names) {
+  return names.map(name => {
+    // Split the name into an array of words
+    const words = name.split(' ');
+
+    // Take the first letter of each word and join them
+    const initials = words.map(word => word[0]).join('');
+
+    return initials.toUpperCase(); // Ensure uppercase initials
+  });
+}
+
+const fullNames = ['John Doe', 'Alice Johnson', 'Bob Smith'];
+const initialsArray = extractInitials(fullNames);
+console.log(initialsArray); // Output: ['JD', 'AJ', 'BS']
