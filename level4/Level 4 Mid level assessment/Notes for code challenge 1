@@ -1,0 +1,12 @@
+<!-- Write a function called **`filterAnagrams`** that filters an array of words to find and return an array containing only the words that are anagrams of a given target word.
+
+**Understand the Problem:**
+Before you start coding, make sure you understand what the challenge is asking. You need to filter a given array of words to find the anagrams of a target word. 
+
+
+
+Anagrams are words that have the same letters but in a different order. -->
+
+<!-- listen and silent are the only words that match with enlist -->
+
+<!-- enlist is the target word -->
